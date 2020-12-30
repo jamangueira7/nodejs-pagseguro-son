@@ -8,11 +8,6 @@
 
 <br>
 
-<p align="center">
-  <img alt="game" src=".github/game.PNG" width="650px" height="450px">
-</p>
-
-
 ## Integração NodeJS com PagSeguro
 
 ## 🚀 Tecnologias
