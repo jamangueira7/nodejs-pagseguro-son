@@ -1,9 +1,12 @@
 const PagSeguro = require('pagseguro-nodejs');
 
+const mode = PagSeguro.MODE_SANDBOX;
+const token = '269DDA715C044994B88BE189307D0F9D';
+
 const pag = new PagSeguro({
     email: 'jamjs7@gmail.com',
-    token: '269DDA715C044994B88BE189307D0F9D',
-    mode: process.env.NODE_ENV === 'development' ? PagSeguro.MODE_SANDBOX : PagSeguro.MODE_PAYMENT,
+    token,
+    mode
 });
 
 pag.currency('BRL');
